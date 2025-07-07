@@ -38,7 +38,7 @@
 
                 <button id="temperature" onclick="cToF()"> Convert </button> <br/>
 
-                <input type="number"    id="f"> <br/>
+                <input type="number" readonly   id="f"> <br/>
 
  <label for="Temperature">Fahrenheit</label>
               </fieldset>
@@ -60,14 +60,14 @@
             <article>
               <fieldset>
                 <legend>Weight</legend>
-                <label for="Weight">KG</label> <br/>
+                <label for="Weight" >KG</label> <br/>
 
- <input type="number"> <br/>
+ <input type="number" id="kilo"> <br/>
 
-                <button id="weight"> Convert </button>  <br/>
+                <button id="weight" onclick="pToKgs()"> Convert </button>  <br/>
 
  
-                <input type="number">  <br/>
+                <input type="number" id="pounds">  <br/>
 
   <label for="Weight">Pounds</label>    
               </fieldset>
@@ -91,11 +91,11 @@
                 <legend>Distance</legend>
                   <label for="Distance">KM</label> <br/>
 
- <input type="number">  <br/>
+ <input type="number" id="kms">  <br/>
 
-                  <button id="distance"> Convert </button> <br/>
+                  <button id="distance" onclick="kmsToMiles()"> Convert </button> <br/>
 
-                  <input type="number">  <br/>
+                  <input type="number" id="miles">  <br/>
 
   <label for="Distance">Miles</label>
               </fieldset>
